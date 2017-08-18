@@ -94,16 +94,16 @@
 
 
 
-<meta name="description" content="安装 node.js下载 node.js 安装包https://nodejs.org/dist/v6.11.2/node-v6.11.2-x64.msi 双击直接安装 安装 git安装 hexo初始化博客github 创建新 仓库创建 ssh keygit 上传">
+<meta name="description" content="安装 node.js下载 node.js 安装包https://nodejs.org/dist/v6.11.2/node-v6.11.2-x64.msi 双击直接安装 安装 git安装 hexonpm install hexo-cli -g 初始化博客hexo init blog github 创建新 仓库在github上创建一个新的仓库， 仓库名为 username.github.io 创建 s">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo + github 搭建个人博客">
 <meta property="og:url" content="http://yoursite.com/2017/08/18/hexo-github-搭建个人博客/index.html">
 <meta property="og:site_name" content="吾逸吾心">
-<meta property="og:description" content="安装 node.js下载 node.js 安装包https://nodejs.org/dist/v6.11.2/node-v6.11.2-x64.msi 双击直接安装 安装 git安装 hexo初始化博客github 创建新 仓库创建 ssh keygit 上传">
-<meta property="og:updated_time" content="2017-08-18T06:14:23.593Z">
+<meta property="og:description" content="安装 node.js下载 node.js 安装包https://nodejs.org/dist/v6.11.2/node-v6.11.2-x64.msi 双击直接安装 安装 git安装 hexonpm install hexo-cli -g 初始化博客hexo init blog github 创建新 仓库在github上创建一个新的仓库， 仓库名为 username.github.io 创建 s">
+<meta property="og:updated_time" content="2017-08-18T07:03:14.333Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo + github 搭建个人博客">
-<meta name="twitter:description" content="安装 node.js下载 node.js 安装包https://nodejs.org/dist/v6.11.2/node-v6.11.2-x64.msi 双击直接安装 安装 git安装 hexo初始化博客github 创建新 仓库创建 ssh keygit 上传">
+<meta name="twitter:description" content="安装 node.js下载 node.js 安装包https://nodejs.org/dist/v6.11.2/node-v6.11.2-x64.msi 双击直接安装 安装 git安装 hexonpm install hexo-cli -g 初始化博客hexo init blog github 创建新 仓库在github上创建一个新的仓库， 仓库名为 username.github.io 创建 s">
 
 
 
@@ -318,6 +318,17 @@
 
           
             
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/08/18/hexo-github-搭建个人博客/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2017/08/18/hexo-github-搭建个人博客/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
           
 
           
@@ -344,7 +355,11 @@
       
         <h3 id="安装-node-js"><a href="#安装-node-js" class="headerlink" title="安装 node.js"></a>安装 node.js</h3><p>下载 node.js 安装包<br><a href="https://nodejs.org/dist/v6.11.2/node-v6.11.2-x64.msi" target="_blank" rel="external">https://nodejs.org/dist/v6.11.2/node-v6.11.2-x64.msi</a></p>
 <p>双击直接安装</p>
-<h3 id="安装-git"><a href="#安装-git" class="headerlink" title="安装 git"></a>安装 git</h3><h3 id="安装-hexo"><a href="#安装-hexo" class="headerlink" title="安装 hexo"></a>安装 hexo</h3><h3 id="初始化博客"><a href="#初始化博客" class="headerlink" title="初始化博客"></a>初始化博客</h3><h3 id="github-创建新-仓库"><a href="#github-创建新-仓库" class="headerlink" title="github 创建新 仓库"></a>github 创建新 仓库</h3><h3 id="创建-ssh-key"><a href="#创建-ssh-key" class="headerlink" title="创建 ssh key"></a>创建 ssh key</h3><h3 id="git-上传"><a href="#git-上传" class="headerlink" title="git 上传"></a>git 上传</h3>
+<h3 id="安装-git"><a href="#安装-git" class="headerlink" title="安装 git"></a>安装 git</h3><h3 id="安装-hexo"><a href="#安装-hexo" class="headerlink" title="安装 hexo"></a>安装 hexo</h3><pre><code>npm install hexo-cli -g
+</code></pre><h3 id="初始化博客"><a href="#初始化博客" class="headerlink" title="初始化博客"></a>初始化博客</h3><pre><code>hexo init blog
+</code></pre><h3 id="github-创建新-仓库"><a href="#github-创建新-仓库" class="headerlink" title="github 创建新 仓库"></a>github 创建新 仓库</h3><p>在github上创建一个新的仓库， 仓库名为 <em>username.github.io</em></p>
+<h3 id="创建-ssh-key"><a href="#创建-ssh-key" class="headerlink" title="创建 ssh key"></a>创建 ssh key</h3><h3 id="git-上传"><a href="#git-上传" class="headerlink" title="git 上传"></a>git 上传</h3><pre><code>hexo deploy
+</code></pre>
       
     </div>
     
@@ -405,6 +420,13 @@
 
           
   <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
     
   </div>
 
@@ -642,6 +664,26 @@
 
   
 
+
+  
+
+    
+      <script id="dsq-count-scr" src="https://.disqus.com/count.js" async></script>
+    
+
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'http://yoursite.com/2017/08/18/hexo-github-搭建个人博客/';
+          this.page.identifier = '2017/08/18/hexo-github-搭建个人博客/';
+          this.page.title = 'hexo + github 搭建个人博客';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
+    
 
   
 
